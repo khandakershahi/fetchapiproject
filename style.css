@@ -9,11 +9,13 @@
     padding: 20px;
   }
   
-  .card {
-    background-color: #5e2796;
+  .card.custom-card {
+    background-color: #e6dbf1;
     min-height: 250px;
+    transition: box-shadow 0.3s ease;
   }
   
-  h2, h4, p {
-    color: #fff;
+  .card.custom-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Enhanced on hover */
   }
+  

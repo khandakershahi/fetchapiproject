@@ -7,10 +7,10 @@ const fetchData = async () => {
 
     posts.slice(0, 12).forEach((post) => {
       const col = document.createElement('div');
-      col.className = 'col-sm-12 col-md-4 d-flex'; // makes column a flexbox item for equal height
+      col.className = 'col-sm-12 col-md-4 d-flex';
 
       col.innerHTML = `
-        <div class="card p-3 shadow w-100 h-100">
+        <div class="card custom-card w-100 p-3 shadow">
           <p class="lead">Post ID: ${post.id}</p>
           <h4 class="title">${post.title}</h4>
           <p class="description">${post.body}</p>
