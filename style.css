@@ -13,6 +13,7 @@
     background-color: #e6dbf1;
     min-height: 250px;
     transition: box-shadow 0.3s ease;
+    border: unset;
   }
   
   .card.custom-card:hover {
